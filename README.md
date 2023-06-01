@@ -1,7 +1,7 @@
-# vue-manage-template
+# vue3-manage
 
-简洁版的后台管理系统 / vue manage template **LITE**
-
+全栈Vue3后台管理系统 / Vue3 manage 
+Vue3+Vite+TypeScript+Vue-Router+Element-Plus+Pinia+NodeJs全栈项目，后端地址[node后端](https://github.com/coderWuzh/Node-Server)
 ## Features
 
 - ⚡️ [Vue 3](https://github.com/vuejs/core), [Vite 3](https://github.com/vitejs/vite), [pnpm](https://pnpm.io/), [ESBuild](https://github.com/evanw/esbuild)
@@ -13,8 +13,3 @@
 
 
 ## Thanks
-
-Inspired by 
-
-- [vue-manage-system](https://github.com/lin-xin/vue-manage-system)
-- [vitesse](https://github.com/antfu/vitesse)
