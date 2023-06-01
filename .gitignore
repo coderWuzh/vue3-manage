@@ -1,0 +1,10 @@
+DS_Store
+.vite-ssg-dist
+.vite-ssg-temp
+*.local
+# just for template github page
+# dist
+dist-ssr
+node_modules
+.idea/
+*.log
