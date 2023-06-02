@@ -10,19 +10,19 @@ export default defineConfig({
   resolve: {
     alias: {
       '@/': `${path.resolve(__dirname, 'src')}/`,
-    },
+    },/*  */
   },
-  server: {
-    cors: true, // 允许跨域
-    // 设置代理，根据我们项目实际情况配置
-    proxy: {
-      '/api': {
-        target: 'http://8.130.121.204:3000/admin',
-        changeOrigin: true, //是否跨域
-        rewrite: (path) => path.replace('^/api', '/api')
-      }
-    }
-  },
+  // server: {
+  //   cors: true, // 允许跨域
+  //   // 设置代理，根据我们项目实际情况配置
+  //   proxy: {
+  //     '/api': {
+  //       target: 'http://8.130.121.204:3000/admin',
+  //       changeOrigin: true, //是否跨域
+  //       rewrite: (path) => path.replace('^/api', '/api')
+  //     }
+  //   }
+  // },
   plugins: [
     vue(),
     AutoImport({
