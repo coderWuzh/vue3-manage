@@ -17,7 +17,7 @@ export default defineConfig({
     // 设置代理，根据我们项目实际情况配置
     proxy: {
       '/api': {
-        target: 'http://localhost:3000/admin',
+        target: 'http://8.130.121.204:3000/admin',
         changeOrigin: true, //是否跨域
         rewrite: (path) => path.replace('^/api', '/api')
       }
