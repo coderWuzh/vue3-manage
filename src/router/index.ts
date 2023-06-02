@@ -101,7 +101,7 @@ const router = createRouter({
 })
 
 router.beforeEach((to, from, next) => {
-  document.title = `${to.meta.title} | tea7-manage`
+  document.title = `${to.meta.title} | iTea-manage`
   const role = localStorage.getItem('ms_username')
   const permiss = usePermissStore()
   if (!role && to.path !== '/login') {

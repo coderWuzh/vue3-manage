@@ -32,7 +32,7 @@
               </el-button>
             </div>
             <p class="login-tips">
-              Tips : 用户名和密码随便填。
+              Tips : 账号admin密码123456
             </p>
           </el-form>
           <div class="tips">
